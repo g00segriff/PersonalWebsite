@@ -15,6 +15,6 @@ def about_me():
 def todays_date():
     today = date.today()
     str_date = today.strftime("%B %d %Y")
-    return "Today's date is " + str_date
+    return "The day of today is " + str_date " :)"
     
 
